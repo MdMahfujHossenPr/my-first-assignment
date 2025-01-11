@@ -56,6 +56,10 @@ body{
 
 }
 
+.nav-btn:hover{
+    background-color: aquamarine;
+}
+
 /* second project done */
 .banner{
     position: static;
@@ -442,16 +446,25 @@ body{
     background: rgb(84, 144, 245);
 }
 
+#btn-bg-one:hover{
+      background-color: blue;
+}
+
 #btn-bg-two{
     border-radius: 8px;
     background: rgb(9, 161, 92);
 }
 
+#btn-bg-two:hover{
+    background-color: aquamarine;
+}
 #btn-bg-three{
     border-radius: 8px;
     background: rgb(255, 194, 57);
 }
-
+#btn-bg-three:hover{
+    background-color: antiquewhite;
+}
 
 /* This is frist part */
 .news{
@@ -579,7 +592,7 @@ body{
     position: static;
     width: 1280px;
     height: 402px;
-    margin-top: 32px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row-reverse;
     justify-items: flex-start;
@@ -647,7 +660,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-center;
+    align-items: flex-center; 
  
 }
 
@@ -737,8 +750,8 @@ body{
     height: 48px;
     margin-top: 32px;
     
-
 }
+
 .btn-three{
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
@@ -748,3 +761,389 @@ body{
     border-radius: 8px;
     background: rgb(0, 106, 80);
 }
+
+
+
+.sec-4 {
+    position: static;
+    width: 1280px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 48px 24px 48px 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 30px 314px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.sec-4 p {
+    position: static;
+    width: 1232px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sec-4 .sec-4-paragraph {
+    position: relative;
+}
+
+.sec-4 .sec-4-paragraph::before {
+    content: "“";
+    font-size: 124px;
+    color: gray;
+    position: absolute;
+    top: 28px;
+    left: -4px;
+    opacity: 0.7;
+}
+
+/* .sec-4 .sec-4-paragraph::after {
+    content: "”";
+    font-size: 50px;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+} */
+
+.sec-4 h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sec-4 .chif {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.donate-contianer {
+    position: static;
+    width: 1280px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 80px 0px;
+    margin: 30px 314px;
+}
+
+
+.donate-heading {
+    position: static;
+    width: 1280px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.donate-pera {
+    position: static;
+    width: 1104px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.box-taka {
+    display: flex;
+    margin-top: 20px;
+}
+
+#background {
+    background-color: aqua;
+}
+
+.taka {
+    position: static;
+    width: 240px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+}
+
+.taka:hover {
+    background-color: yellowgreen;
+}
+
+.input-fild input {
+    position: static;
+    width: 1032px;
+    height: 44px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    outline: none;
+}
+
+ 
+.Subscribe-continear {
+    position: static;
+    width: 1000px;
+    height: 395px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 80px 0px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 30px 354px;
+}
+
+.Subscribe-box {
+    position: static;
+    width: 750px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+.Subscribe-hed {
+    position: static;
+    width: 622px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Subscribe-pera p {
+    position: static;
+    width: 622px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+    position: static;
+    width: 622px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.Subscribe-input {
+    position: static;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 18px 40px 18px 40px;
+    padding: 18px 40px 18px 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-radius: 8px 0px 0px 8px;
+    /* background: rgb(255, 255, 255); */
+}
+
+.Subscribe-input input {
+    position: static;
+    width: 100%;
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.Subscribe-input button {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 34px 17px 34px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: #fff;
+}
+
+/* .footer-title{
+    color: #0E0E0E;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+  }
+.footer-icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+.icon{
+    align-items: center;
+  }
+.footer{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+  }
+.line{
+    color: #0E0E0E 10% ;
+    width: 1122px;
+    position:relative;
+} */
