@@ -138,3 +138,316 @@ body{
     text-align: center;
     background: rgb(0, 106, 80);
 }
+
+/* second project done */
+.banner{
+    position: static;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container{
+    position: static;
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+     
+}
+
+
+.banner-description{
+    position: static;
+    width: 681.99px;
+    height: 560;
+    
+}
+
+
+.banner-img{
+    position: static;
+    width: 598.01px;
+    height: 560;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../styles/hero.png"); */
+    background-repeat: no-repeat;
+}
+
+.banner-heading{
+    position: static;
+    margin: 117px 0px 8px 59.99px;
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-description-text{
+    position: static;
+    margin: 8px 0px 12px 59.99px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.banner-btn{
+    position: static;
+    margin: 12px 0px 117px 59.99px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 17px 34px;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(0, 106, 80);
+}
+
+/* Small future start here */
+.small-future{
+    position: static;
+    width: 100%;
+    height: 404px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.small-future-container{
+    position: static;
+    width: 1280px;
+    height: 324px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+/* Many heading part */
+.heading-part{
+    position: static;
+    width: 1280px;
+    height: 48px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.ending-part{
+    position: static;
+    width: 1280px;
+    height: 276px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.small-future-box{
+    position: static;
+    width: 302px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
+/* All future box icon */
+.card-icon{   
+    position: static;
+    width: 62px;
+    height: 62px;
+    left: 1px;
+    top: 1px;
+    margin: 25px 215px 12.5px 25px;
+}
+
+/* All future heading */
+.heading-future-box{
+    position: static;
+    width: 254px;
+    height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12.5px 24px 12px 24px;
+}
+
+/* All Future heading */
+.ending-future-box{
+    position: static;
+    width: 254px;
+    height: 72px;
+    /* color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;   */
+    margin: 0px 24px 24px 24px;
+}
+
+.future-text-style{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+
+ /* Section three start */
+.future{
+    position: static;
+    width: 100%;
+    height: 557px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.future-container{
+    position: static;
+    width: 1280px;
+    height: 477px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.future-navber{
+    position: static;
+    width: 1280px;
+    height: 48px;
+}
+ 
+
+.future-navber2{
+    position: static;
+    width: 1280px;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.future-navber3{
+    position: static;
+    width: 1280px;
+    height: 325px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+    
+}
+
+.future-box{
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+     
+}
+
+.future-text-style{
+    position: static;
+    width: 1280px;
+    height: 48px;
+}
+
+.btn-div-two{
+    width: 122px;
+    height: 41px;
+    margin-left: 32px;
+}
+.btn-two{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+}
+
+#colour-one{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#colour-two{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+#colour-three{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+#btn-bg-one{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+}
+
+#btn-bg-two{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+
+#btn-bg-three{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
