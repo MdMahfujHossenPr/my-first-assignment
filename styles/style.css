@@ -1123,7 +1123,8 @@ body{
     color: #fff;
 }
 
-/* .footer-title{
+
+.footer-title{
     color: #0E0E0E;
     font-size: 32px;
     text-align: center;
@@ -1146,4 +1147,4 @@ body{
     color: #0E0E0E 10% ;
     width: 1122px;
     position:relative;
-} */
+}  
